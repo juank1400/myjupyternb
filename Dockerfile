@@ -7,7 +7,7 @@ LABEL maintainer="Juan Carlos Cepeda <juank1400@gmail.com>"
 # Definimos usuario, IDs y directorios para facilitar la configuración
 ARG NB_USER="jovyan"
 ARG NB_UID="1000"
-ARG NB_GID="100" # Grupo primario para el usuario
+ARG NB_GID="1000" # Grupo primario para el usuario
 # NOTA: Usaremos GID 0 (root) para la propiedad de grupo de los directorios clave
 # para intentar compatibilidad con OpenShift, donde el UID aleatorio suele pertenecer a GID 0.
 
